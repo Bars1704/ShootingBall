@@ -13,9 +13,9 @@ namespace Input
 
         private void Update()
         {
-            var touchCount = UnityEngine.Input.touchCount;
+            var isTouching = UnityEngine.Input.touchCount > 0;
 
-            if (touchCount > 0)
+            if (isTouching)
             {
                 if (_isChargingAtLastFrame)
                     OnPlayerChargeProcess?.Invoke(Time.deltaTime);
@@ -27,7 +27,7 @@ namespace Input
                 OnPlayerChargeEnd?.Invoke();
             }
 
-            _isChargingAtLastFrame = touchCount > 0;
+            _isChargingAtLastFrame = isTouching;
         }
     }
 }
