@@ -1,3 +1,4 @@
+using System;
 using Reflex.Scripts.Logging;
 
 namespace Reflex.Scripts.Core

@@ -762,8 +762,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1799949717}
-  - component: {fileID: 1799949718}
   - component: {fileID: 1799949716}
+  - component: {fileID: 1799949718}
   m_Layer: 0
   m_Name: Installer
   m_TagString: Untagged
@@ -806,7 +806,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799949715}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 92c341460bb544e18ab9990dbc7ade27, type: 3}
+  m_Script: {fileID: 11500000, guid: 3af45d23f4544e27989ec39c3034756d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _installers:
