@@ -1,4 +1,4 @@
-namespace Gameplay.FSM
+namespace Player.FSM
 {
     /// <summary>
     /// Player SFM base type

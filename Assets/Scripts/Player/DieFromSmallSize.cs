@@ -1,7 +1,7 @@
 using Sizes;
 using UnityEngine;
 
-namespace Gameplay
+namespace Player
 {
     /// <summary>
     /// Kill entity if its size is too small, using <see cref="Mortal"/>

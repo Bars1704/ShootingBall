@@ -1,8 +1,8 @@
 using System;
-using Gameplay.Configs;
+using Player.Configs;
 using UnityEngine;
 
-namespace Gameplay
+namespace Player
 {
     /// <summary>
     /// Moving style (jumping, rolling, etc)

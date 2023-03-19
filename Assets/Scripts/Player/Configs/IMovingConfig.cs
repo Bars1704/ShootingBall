@@ -1,4 +1,4 @@
-namespace Gameplay.Configs
+namespace Player.Configs
 {
     public interface IMovingConfig
     {

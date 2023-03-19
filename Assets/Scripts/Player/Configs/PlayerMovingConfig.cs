@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Gameplay.Configs
+namespace Player.Configs
 {
     [CreateAssetMenu(menuName = "ShootingBall/PlayerMovingConfig")]
     public class PlayerMovingConfig : ScriptableObject, IMovingConfig

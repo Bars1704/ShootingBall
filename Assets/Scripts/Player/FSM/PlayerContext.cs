@@ -1,7 +1,7 @@
 using Input;
 using Miscellaneous;
 
-namespace Gameplay.FSM
+namespace Player.FSM
 {
     /// <summary>
     /// Finite state machine realization for player
@@ -10,7 +10,7 @@ namespace Gameplay.FSM
     {
         public IPlayerChargeInput PlayerChargeInput { get; }
         public ObjectPool<Bullet> BulletsPool { get; }
-        public Player Player { get; set; }
+        public global::Player.Player Player { get; set; }
 
         // A reference to the current state of the Context.
         private IState _state = null;

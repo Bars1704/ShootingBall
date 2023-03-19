@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Gameplay
+namespace Player
 {
     /// <summary>
     /// Means that object can die 

@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 
-namespace Gameplay.FSM
+namespace Player.FSM
 {
     /// <summary>
     /// Player jumps ahead in this state

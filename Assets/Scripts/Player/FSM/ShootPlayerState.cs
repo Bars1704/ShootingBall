@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Gameplay.FSM
+namespace Player.FSM
 {
     /// <summary>
     /// Player shoots an bullet at this state

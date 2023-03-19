@@ -1,11 +1,11 @@
-using Gameplay.Configs;
-using Gameplay.FSM;
+using Player.Configs;
+using Player.FSM;
 using Reflex.Scripts.Attributes;
 using Restorables;
 using Sizes;
 using UnityEngine;
 
-namespace Gameplay
+namespace Player
 {
     [RequireComponent(typeof(ObjectScale), typeof(Mortal))]
     public class Player : MonoBehaviour,IRestorable

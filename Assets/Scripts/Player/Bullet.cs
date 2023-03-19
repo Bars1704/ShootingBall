@@ -5,7 +5,7 @@ using Sizes;
 using UnityEngine;
 using VFX;
 
-namespace Gameplay
+namespace Player
 {
     [RequireComponent(typeof(ObjectSize), typeof(Exploding))]
     public class Bullet : MonoBehaviour

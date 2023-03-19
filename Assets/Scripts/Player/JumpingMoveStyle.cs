@@ -1,9 +1,9 @@
 using System;
 using DG.Tweening;
-using Gameplay.Configs;
+using Player.Configs;
 using UnityEngine;
 
-namespace Gameplay
+namespace Player
 {
     public class JumpingMoveStyle : IMoveStyle
     {

@@ -1,4 +1,4 @@
-namespace Gameplay.FSM
+namespace Player.FSM
 {
     /// <summary>
     /// Player charges in this state, decreasing its own size

@@ -1,5 +1,4 @@
 using System;
-using Gameplay;
 using Miscellaneous;
 using Restorables;
 using UnityEngine;
@@ -20,7 +19,7 @@ namespace Levels
 
         private Vector3 playerDefaultPosition;
 
-        [SerializeField] private Player _player;
+        [SerializeField] private Player.Player _player;
         [SerializeField] private OnTriggerEnterEvent _winZone;
 
         private IRestorable[] _restorables;

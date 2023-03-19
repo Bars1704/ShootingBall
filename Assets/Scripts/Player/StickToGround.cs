@@ -1,7 +1,8 @@
 using Restorables;
+using Sizes;
 using UnityEngine;
 
-namespace Sizes
+namespace Player
 {
     /// <summary>
     /// Letting object down to touch the ground when it change his size

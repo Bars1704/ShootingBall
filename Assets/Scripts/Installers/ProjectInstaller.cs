@@ -1,8 +1,8 @@
-using Gameplay;
-using Gameplay.Configs;
-using Gameplay.FSM;
 using Input;
 using Miscellaneous;
+using Player;
+using Player.Configs;
+using Player.FSM;
 using Reflex;
 using Reflex.Scripts;
 using Timers;
@@ -16,14 +16,14 @@ namespace Installers
         [SerializeField] private SingleActionPlayerChargeInput _deviceInputPrefab;
         [SerializeField] private SingleActionPlayerChargeInput _testInputPrefab;
         [SerializeField] private CoroutineTimer _timer;
-        [SerializeField] private Gameplay.Bullet _bulletPrefab;
+        [SerializeField] private Bullet _bulletPrefab;
         [SerializeField] private PlayerConfig _playerConfig;
         [SerializeField] private VFXConfig _vfxConfig;
 
         public override void InstallBindings(Container container)
         {
             BindInput(container);
-            container.BindInstance(new ObjectPool<Gameplay.Bullet>(_bulletPrefab, 1));
+            container.BindInstance(new ObjectPool<Bullet>(_bulletPrefab, 1));
             container.BindInstance(_playerConfig);
             container.BindInstance(_vfxConfig);
             container.BindInstanceAs<ITimer>(_timer);
