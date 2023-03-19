@@ -1,0 +1,16 @@
+{
+    "name": "Path",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9394751b33c6ae544a44394cf89085f5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
